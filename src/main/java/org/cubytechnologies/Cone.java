@@ -30,13 +30,13 @@ public class Cone extends Shape {
 
     @Override
     public void calcVolume() {
-        super.setVolume((Math.PI * Math.pow(radiusCone, 2) * heightCone) / 3);
+        this.setVolume((Math.PI * Math.pow(radiusCone, 2) * heightCone) / 3);
         System.out.println("Объем конуса = " + super.getVolume());
     }
 
     @Override
     public void calcArea() {
-        super.setArea((Math.PI * Math.pow(radiusCone, 2) + Math.PI * radiusCone * coneGenerate));
+        this.setArea((Math.PI * Math.pow(radiusCone, 2) + Math.PI * radiusCone * coneGenerate));
         System.out.println("Площадь поверхности конуса = " + super.getArea());
     }
 }

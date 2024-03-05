@@ -13,13 +13,13 @@ public class Sphere extends Shape {
 
     @Override
     public void calcVolume() {
-        super.setVolume((4 * Math.PI * Math.pow(radiusSphere, 3)) / 3);
+        this.setVolume((4 * Math.PI * Math.pow(radiusSphere, 3)) / 3);
         System.out.println("Объем конуса = " + super.getVolume());
     }
 
     @Override
     public void calcArea() {
-        super.setArea(4 * Math.PI * Math.pow(radiusSphere, 2));
+        this.setArea(4 * Math.PI * Math.pow(radiusSphere, 2));
         System.out.println("Площадь поверхности конуса = " + super.getArea());
     }
 }

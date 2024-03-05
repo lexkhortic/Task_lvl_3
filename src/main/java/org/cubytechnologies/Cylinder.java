@@ -15,13 +15,13 @@ public class Cylinder extends Shape {
 
     @Override
     public void calcVolume() {
-        super.setVolume(Math.PI * Math.pow(radiusCylinder, 2) * heightCylinder);
+        this.setVolume(Math.PI * Math.pow(radiusCylinder, 2) * heightCylinder);
         System.out.println("Объем цидлиндра = " + super.getVolume());
     }
 
     @Override
     public void calcArea() {
-        super.setArea(2 * Math.PI * Math.pow(radiusCylinder, 2) +
+        this.setArea(2 * Math.PI * Math.pow(radiusCylinder, 2) +
                 2 * Math.PI * radiusCylinder * heightCylinder);
         System.out.println("Площадь поверхности цидлиндра = " + super.getArea());
     }

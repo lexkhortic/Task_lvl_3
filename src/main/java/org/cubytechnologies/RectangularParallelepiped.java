@@ -17,13 +17,13 @@ public class RectangularParallelepiped extends Shape {
 
     @Override
     public void calcVolume() {
-        super.setVolume(width * length * height);
+        this.setVolume(width * length * height);
         System.out.println("Объем прямоугольного параллелепипеда = " + super.getVolume());
     }
 
     @Override
     public void calcArea() {
-        super.setArea(2 * width * length + 2 * width * height + 2 * length * height);
+        this.setArea(2 * width * length + 2 * width * height + 2 * length * height);
         System.out.println("Площадь прямоугольного параллелепипеда = " + super.getArea());
     }
 }

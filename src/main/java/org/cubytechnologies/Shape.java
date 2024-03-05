@@ -6,8 +6,8 @@ import lombok.*;
 @Getter
 @NoArgsConstructor
 public abstract class Shape {
-    private double volume;
-    private double area;
+    protected double volume;
+    protected double area;
 
     //вычисление объема фигуры
     public abstract void calcVolume();

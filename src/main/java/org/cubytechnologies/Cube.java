@@ -13,13 +13,13 @@ public class Cube extends Shape{
 
     @Override
     public void calcVolume() {
-        super.setVolume(Math.pow(edgeCube, 3));
+        this.setVolume(Math.pow(edgeCube, 3));
         System.out.println("Объем куба = " + super.getVolume());
     }
 
     @Override
     public void calcArea() {
-        super.setArea(6 * Math.pow(edgeCube, 2));
+        this.setArea(6 * Math.pow(edgeCube, 2));
         System.out.println("Площадь поверхности куба = " + super.getArea());
     }
 }
